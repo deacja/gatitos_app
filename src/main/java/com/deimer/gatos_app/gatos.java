@@ -8,19 +8,19 @@ package com.deimer.gatos_app;
  *
  * @author deime
  */
-public class gatos {
+public class Gatos {
     
-    int is;
+    String id;
     String url;
     String apikey = "29ab3fcf-1ae1-455c-89cd-a0ef5af37d1c";
     String image;
 
-    public int getIs() {
-        return is;
+    public String getId() {
+        return id;
     }
 
-    public void setIs(int is) {
-        this.is = is;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getUrl() {
